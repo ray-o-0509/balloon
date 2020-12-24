@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.background_img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 1.5em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(223, 248, 253, 0.4);
+    margin: 50px 0 0;
+}
+
+/* user_data */
+.user_data{
+    background: rgba(255, 255, 255, 0.22);
+    padding: 5px 15px;
+    width: 15em;
+    position: absolute;
+    bottom: 30px;
+    left: 50vw;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    z-index: 50;
+}
+.user_data p{
+    margin: 0 auto;
+}
+.stage_text{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.6em;
+    width: 10em;
+    border-bottom: 1px solid #FFFFFF;
+}
+.progressDiv{
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(196,196,196,1) 50%);
+    margin: 30px 0 5px;
+    padding: 2px;
+    border-radius: 4.5px;
+}
+  
+.progress{
+    width: 0%;
+    height: 5px;
+    background: rgba(165, 133, 255, 0.74);
+    border-radius: 2.5px;
+}
+.progress_text{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5em;
+}
+
+#balloon_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+}
+.balloons{
+    position: absolute;
+    top: 120vh;
+    cursor: pointer;
+}
